@@ -1,0 +1,17 @@
+Yongtao Chu 
+1.What are specs of the board you are using (ex. Speed, RAM, Flash)?
+STM32(ARM (CORTEX - M4)
+
+2.What does GPIO stand for?
+GPIO stands for general-purpose input/output which is a generic pin on an integrated circuit.
+
+3.Is the provided delay function accurate? Why or why not? EDIT This question will be disregarded as this delay function does not have parameter Sorry for the confusion
+
+4.What are the Port and Pin Numbers of the two Green LEDs?
+Port E pin 11
+Port E pin 15
+
+5.What are the public attributes of the GPIO_InitTypeDef Struct?
+GPIO_pin GPIO_Mode GPIO_OType GPIO_speed GPIO_PuPd
+
+There are many difficulties in this lab, and TA give a a lot of assistant because I don't have a partner. At first I don't knoe the basic concept of GPIO, and the two buttom on the STM32 really confuse me a lot. The GPIO function also takes me a while to understand how to test the function and enlight the led on the board.

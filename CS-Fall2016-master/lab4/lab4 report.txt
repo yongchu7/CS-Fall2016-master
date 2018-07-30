@@ -1,0 +1,17 @@
+1.2 connections 1 send 1receive.
+
+2.So it can work on several function at one time ,and pin can use for input and output.
+
+3.baud rate is the rate which information is transfered in a communication channel.
+
+4.The newlib_stubs is a c language library so we definitly need it for some function to work,for ex. like the printf which is buildin function included in the library.
+
+5.I can get a curve graph for the data received, so if there is some bugs or pauses, it should be easy to see.
+
+learn:
+I have learn how to use serialT to make communication. I also learn how to run the main function with the words count function which is very interesting.
+
+difficults:
+what I find is very difficult in this lab is the testing part using serialT,but partner and me figure out how to do this. Putstring part also takes me a whole during the lab.
+
+by yongtao Chu

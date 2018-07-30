@@ -1,0 +1,23 @@
+1.Nunchuk is controled by I2C. That is why we don't need to initialize pins.
+
+2.
+f3d_i2c1_read_nunchuk doesn't take reg as parameter. This means that nunchuk is only using pre-set register that the function will only work for nunchuk.
+
+3.
+jx - joystick x axis
+jy - joystick y axis
+ax - accelerometer x axis
+ay - accelerometer y axis
+az - accelerometer z axis
+c - c button
+z - z button
+
+4.
+case 0 - both buttons pressed
+case 1 - only c button pressed
+case 2 - only z button pressed
+case 3 - no button is pressed
+
+difficults: The main dissicult is to switch between 4 different case, it takes a long time to do that.
+
+learn: Using nunchuk can help us make lots of fun things 

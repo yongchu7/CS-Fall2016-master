@@ -1,0 +1,7 @@
+1.Advantages: By using printf, you can easily see the result of the led lights whether it is on or not. Disadvantage: It can delay the speed.
+ 2. spiReadWrite reads data and displays on the LCD.
+ 3. This macro sets the CS pin high, which postpone the action of the SPI master. It is used in initializing f3d_lcd_init() to suspend communicating when initializing.
+4. In ASCII, the chars are defined as an unsigned 8bit String
+ 5.f3d_lcd_fillScreen is faster than f3d_lcd_fillScreen2. It conflicts with the assumption.
+
+Difficulties: We spend a lot of time on how to show the data in pixel, and we make a fillsection function for solving that.

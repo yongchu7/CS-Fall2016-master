@@ -1,0 +1,13 @@
+1.The CS pin is used to signal to the slave when a transfer of data is starting and ending.
+
+2.Set the CS high to complete the transaction, both read and write function changes CS from low to high and high to low.
+
+3.We need to connect wires
+
+4.Baud rate:8 frequency:9
+
+5.Yes. It can satisfy  different commnication requirements
+
+what I learned: I learn how to use MOSI/MISO and SPI
+
+difficulties: debug part is very tricky, and the step 8 is also very hard to do, with the help of TA, finally get some idea.
